@@ -17,9 +17,11 @@ void GetDistanceBetweenTwoPoints(int firstX, int secondX, int firstY, int second
     int tempY = (secondY - firstY) * (secondY - firstY);
 
     result = Math.Sqrt(tempX + tempY);
-    
-    Console.WriteLine($"расстояние между двумя точками = {result}");
+    Console.WriteLine();
+    Console.WriteLine($"Расстояние между двумя точками = {result}");
+    Console.WriteLine();
 }
+GetDistanceBetweenTwoPoints(3, 2, 6, 1);
 
 
 /*Второй Варинт решения этой же задачи
